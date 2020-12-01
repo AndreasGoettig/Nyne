@@ -15,8 +15,8 @@ MonoBehaviour:
   SwitchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: C:/Users/Felix/Documents/FMOD Studio/FMOD NYNE/FModNyneAudio/FModNyneAudio.fspro
-  sourceBankPath: C:\Users\Felix\Documents\FMOD Studio\FMOD NYNE\FModNyneAudio\Build
+  sourceProjectPath: ../../NYNEAudio/NYNEAudio.fspro
+  sourceBankPath: ..\..\NYNEAudio\Build
   SourceBankPathUnformatted: 
   AutomaticEventLoading: 1
   BankLoadType: 0
@@ -76,7 +76,9 @@ MonoBehaviour:
   - Platform: 20
     Value: 32
   Plugins: []
-  MasterBanks: []
-  Banks: []
+  MasterBanks:
+  - Master
+  Banks:
+  - TestBank
   BanksToLoad: []
   LiveUpdatePort: 9264
