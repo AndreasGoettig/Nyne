@@ -19,6 +19,10 @@ public class Prisma : MonoBehaviour
     float currentRingStep2;
     float currentRingStep3;
 
+    public float startingRingStep1;
+    public float startingRingStep2;
+    public float startingRingStep3;
+
     public bool canRotate = true;
     Sequence resetSequence;
 
@@ -35,15 +39,15 @@ public class Prisma : MonoBehaviour
     }
 
     public void UseButton1(){
-
+        Transform ring = rings[0];
     }
 
     public void UseButton2(){
-        
+        Transform ring = rings[1];
     }
 
     public void UseButton3(){
-        
+        Transform ring = rings[2];
     }
 
     public void ResetSteps(){
