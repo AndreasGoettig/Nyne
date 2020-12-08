@@ -33,21 +33,66 @@ public class Prisma : MonoBehaviour
             resetSequence.Append(ring.DORotate(new Vector3(0,0,0),1).SetEase(Ease.InOutBack));
         }
     }
+
+    public void Start(){
+    
+    }
+
+    public InitRings(){
+
+    }
+
     public void OnValidate(){
         rotationSteps = 360/steps;
         ResetSteps();
     }
 
     public void UseButton1(){
-        Transform ring = rings[0];
+        if(canRotate){
+            Transform ring = rings[0];
+            canRotate = false;
+            if (currentRingStep1 == 12f)
+            {
+                currentRingStep1 = 1;
+            }
+            else
+            {
+                currentRingStep1 += 1;
+            }
+            DoTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep1,0),1).OnComplete(RotateToggle);
+        }
     }
 
     public void UseButton2(){
-        Transform ring = rings[1];
+        if(canRotate){
+            Transform ring = rings[1];
+            canRotate = false;
+            if (currentRingStep2 == 12f)
+            {
+                currentRingStep2 = 1;
+            }
+            else
+            {
+                currentRingStep2 += 1;
+            }
+            DoTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep2,0),1).OnComplete(RotateToggle);
+        }
     }
 
     public void UseButton3(){
-        Transform ring = rings[2];
+        if(canRotate){
+            Transform ring = rings[2];
+            canRotate = false;
+            if (currentRingStep3 == 12f)
+            {
+                currentRingStep3 = 1;
+            }
+            else
+            {
+                currentRingStep3 += 1;
+            }
+            DoTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep3,0),1).OnComplete(RotateToggle);
+        }
     }
 
     public void ResetSteps(){
