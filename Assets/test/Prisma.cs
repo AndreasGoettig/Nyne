@@ -11,9 +11,9 @@ public class Prisma : MonoBehaviour
 
     public Transform[] rings;
 
-    public float CorrectRingStep1 = 0;
-    public float CorrectRingStep2 = 0;
-    public float CorrectRingStep3 = 0;
+    public float CorrectRingStep1 = 1;
+    public float CorrectRingStep2 = 1;
+    public float CorrectRingStep3 = 1;
 
     float currentRingStep1;
     float currentRingStep2;
@@ -59,7 +59,8 @@ public class Prisma : MonoBehaviour
             {
                 currentRingStep1 += 1;
             }
-            DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep1,0),1).OnComplete(RotateToggle);
+            // DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep1,0),1).OnComplete(RotateToggle);
+            ring.DORotate(new Vector3(0, rotationSteps * currentRingStep1, 0), 1).OnComplete(RotateToggle);
         }
     }
 
@@ -75,7 +76,8 @@ public class Prisma : MonoBehaviour
             {
                 currentRingStep2 += 1;
             }
-            DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep2,0),1).OnComplete(RotateToggle);
+            //DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep2,0),1).OnComplete(RotateToggle);
+            ring.DORotate(new Vector3(0, rotationSteps * currentRingStep2, 0), 1);
         }
     }
 
@@ -91,7 +93,8 @@ public class Prisma : MonoBehaviour
             {
                 currentRingStep3 += 1;
             }
-            DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep3,0),1).OnComplete(RotateToggle);
+            //DOTween.To(()=> ring.rotation, x=>ring.rotation=x,new Vector3(0,rotationSteps*currentRingStep3,0),1).OnComplete(RotateToggle);
+            ring.DORotate(new Vector3(0, rotationSteps * currentRingStep3, 0), 1);
         }
     }
 
