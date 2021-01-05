@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6265822785011975873
+--- !u!114 &-8066242723352896857
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,15 +10,60 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TestBank.bank
+  m_Name: bank:/Drums.bank
   m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/TestBank.bank
-  SubDir: 
-  lastModified: 637424409387647966
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank
+  Name: Drums
+  lastModified: 637454623600000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &-4828950071919298687
+--- !u!114 &-6180960861878576579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Max/Kreuzung \xDCbergang (Einmalig)"
+  m_EditorClassIdentifier: 
+  Path: "event:/Max/Kreuzung \xDCbergang (Einmalig)"
+  guid: d45a3ddd8e421349a1c549f77d0e9f85
+  Banks:
+  - {fileID: 8329327426340159790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 9408
+--- !u!114 &-5822485737418158048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Intro Musik (Einmalig)
+  m_EditorClassIdentifier: 
+  Path: event:/Intro Musik (Einmalig)
+  guid: 8757fcddff30ec49a3caf8d226db90dd
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 59260
+--- !u!114 &-4098289135483127723
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -28,33 +73,38 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TestBank.bank
+  m_Name: bank:/TEST.bank
   m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/TestBank.bank
-  SubDir: 
-  lastModified: 637424406845559552
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &-4266275426367621374
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637424409387428557
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/TEST.bank
+  Name: TEST
+  lastModified: 637454623600000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &-1725790354456213301
+--- !u!114 &-3625076966720235296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Max/Intro Musik (Einmalig)
+  m_EditorClassIdentifier: 
+  Path: event:/Max/Intro Musik (Einmalig)
+  guid: 8757fcddff30ec49a3caf8d226db90dd
+  Banks:
+  - {fileID: 8329327426340159790}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 59260
+--- !u!114 &-3610654113084595196
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -64,14 +114,37 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TestBank.bank
+  m_Name: bank:/Sting.bank
   m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/TestBank.bank
-  SubDir: 
-  lastModified: 637424394862376482
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Sting.bank
+  Name: Sting
+  lastModified: 637454623600000000
   LoadResult: 0
   FileSizes: []
-  Exists: 0
+  Exists: 1
+--- !u!114 &-2648940569494765557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: "event:/Max/Introbereich verlassen \xDCbergang (Einmalig)"
+  m_EditorClassIdentifier: 
+  Path: "event:/Max/Introbereich verlassen \xDCbergang (Einmalig)"
+  guid: cfffecf35e052a43acbc73c392281258
+  Banks:
+  - {fileID: 8329327426340159790}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 8704
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,19 +158,49 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 5126148828064886516}
-  - {fileID: -4266275426367621374}
-  - {fileID: -6265822785011975873}
+  - {fileID: 6032497804351967359}
+  - {fileID: 8329327426340159790}
+  - {fileID: 8133914810328627569}
+  - {fileID: 8615816100942007645}
+  - {fileID: -3610654113084595196}
+  - {fileID: -4098289135483127723}
+  - {fileID: -8066242723352896857}
   EditorEvents:
-  - {fileID: 8273661472668768750}
+  - {fileID: -3625076966720235296}
+  - {fileID: 7269572080328300454}
+  - {fileID: 6826658157487138966}
+  - {fileID: -2648940569494765557}
+  - {fileID: -6180960861878576579}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4266275426367621374}
+  - {fileID: 8133914810328627569}
   StringsBanks:
-  - {fileID: 5126148828064886516}
-  stringsBankWriteTime: 637424409387468449
-  cacheVersion: 3
---- !u!114 &5126148828064886516
+  - {fileID: 6032497804351967359}
+  stringsBankWriteTime: 637454623600000000
+  cacheVersion: 5
+--- !u!114 &5710287447793853472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Introbereich verlassen Drums (Einmalig)
+  m_EditorClassIdentifier: 
+  Path: event:/Introbereich verlassen Drums (Einmalig)
+  guid: d00050b311b9a34ebeaf62edab6df519
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &6032497804351967359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -109,51 +212,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.strings.bank
-  SubDir: 
-  lastModified: 637424409387468449
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Master.strings.bank
+  Name: Master.strings
+  lastModified: 637454623600000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 832
+    Value: 1232
   Exists: 1
---- !u!114 &5549582387531348689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637424394862147081
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &6082226088964155466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637424406844931235
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &8273661472668768750
+--- !u!114 &6826658157487138966
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -163,17 +230,138 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
+  m_Name: event:/Max/Betreten von Tankraum Musik (Einmalig)
   m_EditorClassIdentifier: 
-  Path: event:/Test
-  guid: 134d842cb690184ca86bd0f5d221f7c6
+  Path: event:/Max/Betreten von Tankraum Musik (Einmalig)
+  guid: 9d0231ab6ffd124a9eac3c686d0211d3
   Banks:
-  - {fileID: -4266275426367621374}
-  - {fileID: -6265822785011975873}
+  - {fileID: 8329327426340159790}
   IsStream: 1
-  Is3D: 1
+  Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 0
-  MaxDistance: 10000
-  Length: 51375
+  MaxDistance: 0
+  Length: 69211
+--- !u!114 &7269572080328300454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Max/Introbereich verlassen Drums (Einmalig)
+  m_EditorClassIdentifier: 
+  Path: event:/Max/Introbereich verlassen Drums (Einmalig)
+  guid: d00050b311b9a34ebeaf62edab6df519
+  Banks:
+  - {fileID: -8066242723352896857}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 4000
+--- !u!114 &7413440645929758561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Max/Verlassen von Tankraum (Einmalig)
+  m_EditorClassIdentifier: 
+  Path: event:/Max/Verlassen von Tankraum (Einmalig)
+  guid: d45a3ddd8e421349a1c549f77d0e9f85
+  Banks:
+  - {fileID: 8329327426340159790}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 28184
+--- !u!114 &7903765650040588483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Intro Musik
+  m_EditorClassIdentifier: 
+  Path: event:/Intro Musik
+  guid: 8757fcddff30ec49a3caf8d226db90dd
+  Banks: []
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 59260
+--- !u!114 &8133914810328627569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Master.bank
+  Name: Master
+  lastModified: 637454623600000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8329327426340159790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Atmos.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Atmos.bank
+  Name: Atmos
+  lastModified: 637454623600000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
+--- !u!114 &8615816100942007645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/SFX.bank
+  Name: SFX
+  lastModified: 637454623600000000
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
