@@ -14,10 +14,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank
   Name: Drums
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-7074794559775884790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-6180960861878576579
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -77,7 +97,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/TEST.bank
   Name: TEST
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -118,10 +138,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Sting.bank
   Name: Sting
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
+--- !u!114 &-3515794565346635639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &-3251517670025630465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -145,6 +185,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 58300
+--- !u!114 &-2993826769797284485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
 --- !u!114 &-2648940569494765557
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -168,6 +228,113 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 8704
+--- !u!114 &-2543940506421020758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &-1582468630133250543
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Max/Sackgasse 1
+  m_EditorClassIdentifier: 
+  Path: event:/Max/Sackgasse 1
+  guid: 8a65e5fb67dd0b4da6e8993e92ed184c
+  Banks:
+  - {fileID: -8066242723352896857}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -2543940506421020758}
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 37158
+--- !u!114 &-721698744237164059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-654762784377484259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &-26207677332029232
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Max/Tankraum Musik
+  m_EditorClassIdentifier: 
+  Path: event:/Max/Tankraum Musik
+  guid: 9d0231ab6ffd124a9eac3c686d0211d3
+  Banks:
+  - {fileID: 8329327426340159790}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 69211
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,17 +358,78 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -3625076966720235296}
   - {fileID: 7269572080328300454}
-  - {fileID: 6826658157487138966}
   - {fileID: -2648940569494765557}
   - {fileID: -6180960861878576579}
   - {fileID: -3251517670025630465}
+  - {fileID: -26207677332029232}
+  - {fileID: -1582468630133250543}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8133914810328627569}
   StringsBanks:
   - {fileID: 6032497804351967359}
-  stringsBankWriteTime: 637456396460000000
+  stringsBankWriteTime: 637457358110000000
   cacheVersion: 5
+--- !u!114 &593135154908861818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
+--- !u!114 &1012825161663856089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 1
+--- !u!114 &3979584909617241842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/Levelintesity
+  m_EditorClassIdentifier: 
+  Name: Levelintesity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Exists: 0
 --- !u!114 &5710287447793853472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -238,11 +466,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes:
   - Name: Desktop
-    Value: 1284
+    Value: 1356
+  Exists: 1
+--- !u!114 &6517285790631136057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sackgasse 1/End
+  m_EditorClassIdentifier: 
+  Name: End
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
   Exists: 1
 --- !u!114 &6826658157487138966
 MonoBehaviour:
@@ -258,8 +506,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Max/Betreten von Tankraum Musik (Einmalig)
   guid: 9d0231ab6ffd124a9eac3c686d0211d3
-  Banks:
-  - {fileID: 8329327426340159790}
+  Banks: []
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -349,7 +596,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Master.bank
   Name: Master
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -367,7 +614,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Atmos.bank
   Name: Atmos
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1
@@ -385,7 +632,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/SFX.bank
   Name: SFX
-  lastModified: 637456396460000000
+  lastModified: 637457358110000000
   LoadResult: 0
   FileSizes: []
   Exists: 1

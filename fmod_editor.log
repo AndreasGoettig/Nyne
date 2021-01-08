@@ -7,7 +7,7 @@
 [WRN] SystemI::init                            : Output requires a sample rate of 44100Hz, resampling will occur.
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 0x7ff553a14e08 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 0x7fcbf5299a08 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
@@ -23,6 +23,67 @@
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] SoundI::release                          : Drama Rising_Ruhig_32bars (0x7fcbf3c88828)
+[LOG] SoundI::release                          :     Drama Rising_Ruhig_32bars (0x7fcc01797638)
+[LOG] SoundI::release                          :     Drama Rising_Ruhig_32bars (0x7fcbde32bdb8)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbf3c88828 : node = 0x7fcbd626fc80
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbdf9907e8 : node = 0x7fcbdf9b5630
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbf3c88828
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbd626fd90
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Blockbuster_Toms_Low 2_8bars', format=5, channels=2, frequency=48000, lengthbytes=203072, lengthpcm=1063615, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.470651.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbf3c88828
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbdf9907e8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdf9b5740
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 270
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='CTDS BRAAM SOFT Wake And Shake', format=5, channels=2, frequency=48000, lengthbytes=200480, lengthpcm=1353577, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.998849.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbdf9907e8
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbf16abde8 : node = 0x7fcbdb1c7290
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdb1c73a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Blockbuster_Toms_Low_Ending', format=5, channels=2, frequency=48000, lengthbytes=90496, lengthpcm=1063615, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.472717.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] SoundI::release                          : CTDS BRAAM SOFT Wake And Shake (0x7fcbdf9907e8)
+[LOG] SoundI::release                          :     CTDS BRAAM SOFT Wake And Shake (0x7fcbf3017858)
+[LOG] SoundI::release                          :     CTDS BRAAM SOFT Wake And Shake (0x7fcbf4cfdb28)
+[LOG] SoundI::release                          : Blockbuster_Toms_Low 2_8bars (0x7fcbf3c88828)
+[LOG] SoundI::release                          :     Blockbuster_Toms_Low 2_8bars (0x7fcbe0cb6e98)
+[LOG] SoundI::release                          :     Blockbuster_Toms_Low 2_8bars (0x7fcbf0483ef8)
+[LOG] SoundI::release                          : Blockbuster_Toms_Low_Ending (0x7fcbf16abde8)
+[LOG] SoundI::release                          :     Blockbuster_Toms_Low_Ending (0x7fcbdf4ff3e8)
+[LOG] SoundI::release                          :     Blockbuster_Toms_Low_Ending (0x7fcbdec8cb48)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
@@ -32,6 +93,254 @@
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
 [LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 125, compatVersion = 119 (oldest = 44, newest = 135)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbf16abde8 : node = 0x7fcbdb1c7290
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbd61ec3c8 : node = 0x7fcbdb185b50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdb1c73a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbd61ec3c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdb185c60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 270
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbd61ec3c8
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[LOG] SoundI::release                          : (null) (0x7fcbf16abde8)
+[LOG] SoundI::release                          : (null) (0x7fcbd61ec3c8)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbf16abde8 : node = 0x7fcbdb185b50
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbd61ec3c8 : node = 0x7fcbdb1c7290
+[LOG] SystemI::createSound                     :     add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdb185c60
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbf16abde8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbd61ec3c8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdb1c73a0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 270
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbd61ec3c8
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[LOG] SoundI::release                          : (null) (0x7fcbf16abde8)
+[LOG] SoundI::release                          : (null) (0x7fcbd61ec3c8)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbd56be9d8 : node = 0x7fcc0176f8d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbdf9fae28 : node = 0x7fcc017efa10
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbd56be9d8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcc0176f9e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbd56be9d8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbdf9fae28
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcc017efb20
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 270
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbdf9fae28
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[LOG] SoundI::release                          : (null) (0x7fcbd56be9d8)
+[LOG] SoundI::release                          : (null) (0x7fcbdf9fae28)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbd56be9d8 : node = 0x7fcbdf9f81d0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbd56be9d8
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbdf9f82e0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbd56be9d8
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[LOG] SoundI::release                          : (null) (0x7fcbd56be9d8)
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbdb48e448 : node = 0x7fcbf6ea35e0
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 0
+[LOG] SystemI::createSound                     : filename = ../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 0x7fcbdf849f48 : node = 0x7fcbf6e72a30
+[LOG] SystemI::createSound                     : add node to async list : head = 0x7fcc01743998.  list count = 1
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbdb48e448
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbf6ea36f0
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbdb48e448
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0x7fcbdf849f48
+[LOG] SystemI::createSoundInternal             :     Create name='../FmodZusammenarbeit/ZusammenarbeitFMOD/Build/Desktop/Drums.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 539872
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 4352
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0x7fcbf6e72b40
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 270
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[ERR] CodecOggVorbis::openInternal             :     failed to open as ogg
+[ERR] CodecMOD::openInternal                   :     'M.K.' etc ID check failed [??@?]
+[ERR] CodecS3M::openInternal                   :     'SCRM' ID check failed [WAV ]
+[ERR] CodecXM::openInternal                    :     'Extended Module: ' ID check failed [???]
+[ERR] CodecIT::openInternal                    :     'IMPM' etc ID check failed [???]
+[ERR] CodecMIDI::openInternal                  :     'HThd' ID check failed [???]
+[ERR] CodecMPEG::openInternal                  :     failed to open as mpeg
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0x7fcbdf849f48
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[WRN] SoundSourceInstrumentInstance::startChannelIfReady : Waveform instance in error state 19
+[LOG] SoundI::release                          : (null) (0x7fcbdb48e448)
+[LOG] SoundI::release                          : (null) (0x7fcbdf849f48)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.
 [LOG] Thread::callback                         : FMOD Studio bank load thread finished.
 [LOG] Thread::callback                         : FMOD Studio sample load thread finished.
 [LOG] LiveUpdate::release                      : 
@@ -39,3 +348,5 @@
 [LOG] Thread::callback                         : FMOD stream thread finished.
 [LOG] Thread::callback                         : FMOD mixer thread finished.
 [LOG] SystemI::close                           : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
