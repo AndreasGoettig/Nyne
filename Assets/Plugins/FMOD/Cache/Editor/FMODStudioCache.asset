@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6265822785011975873
+--- !u!114 &-4672164029095498358
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -18,7 +18,7 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &-4828950071919298687
+--- !u!114 &-4530099092679148828
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27,16 +27,22 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TestBank.bank
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Test
   m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/TestBank.bank
-  SubDir: 
-  lastModified: 637424406845559552
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &-4266275426367621374
+  Path: event:/Test
+  guid: 134d842cb690184ca86bd0f5d221f7c6
+  Banks:
+  - {fileID: -3805913629996754235}
+  - {fileID: -4672164029095498358}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 10000
+  Length: 51375
+--- !u!114 &-3805913629996754235
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,24 +60,6 @@ MonoBehaviour:
   LoadResult: 0
   FileSizes: []
   Exists: 1
---- !u!114 &-1725790354456213301
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/TestBank.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/TestBank.bank
-  SubDir: 
-  lastModified: 637424394862376482
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -85,19 +73,19 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 5126148828064886516}
-  - {fileID: -4266275426367621374}
-  - {fileID: -6265822785011975873}
+  - {fileID: 2736975680472111940}
+  - {fileID: -3805913629996754235}
+  - {fileID: -4672164029095498358}
   EditorEvents:
-  - {fileID: 8273661472668768750}
+  - {fileID: -4530099092679148828}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -4266275426367621374}
+  - {fileID: -3805913629996754235}
   StringsBanks:
-  - {fileID: 5126148828064886516}
+  - {fileID: 2736975680472111940}
   stringsBankWriteTime: 637424409387468449
   cacheVersion: 3
---- !u!114 &5126148828064886516
+--- !u!114 &2736975680472111940
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,63 +105,3 @@ MonoBehaviour:
   - Name: Desktop
     Value: 832
   Exists: 1
---- !u!114 &5549582387531348689
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637424394862147081
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &6082226088964155466
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../NYNEAudio/Build/Desktop/Master.bank
-  SubDir: 
-  lastModified: 637424406844931235
-  LoadResult: 0
-  FileSizes: []
-  Exists: 0
---- !u!114 &8273661472668768750
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Test
-  m_EditorClassIdentifier: 
-  Path: event:/Test
-  guid: 134d842cb690184ca86bd0f5d221f7c6
-  Banks:
-  - {fileID: -4266275426367621374}
-  - {fileID: -6265822785011975873}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 0
-  MaxDistance: 10000
-  Length: 51375
